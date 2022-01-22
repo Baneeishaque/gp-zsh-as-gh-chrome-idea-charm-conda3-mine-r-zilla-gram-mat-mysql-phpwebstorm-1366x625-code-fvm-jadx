@@ -28,6 +28,7 @@ image:
   # - command: rm -rf ~/.config/JetBrains/RubyMine2021.1 && mkdir -p ~/.config/JetBrains && ln -s `pwd`/RubyMine2021.1-config ~/.config/JetBrains/RubyMine2021.1 && mkdir -p ~/.local/share/JetBrains && ln -s `pwd`/RubyMine2021.1-local ~/.local/share/JetBrains/RubyMine2021.1 && cd /usr/local/RubyMine-2021.1.2/bin/ && ./rubymine.sh
   # - command: anydesk
   # - command: tilda
+  # - command: jadx-gui
 
 ports:
   - port: 5900

@@ -16,7 +16,6 @@
 ### Base Image Repo. : [baneeishaque/gp-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-matlab-mysql-phpwebstorm-1366x625-code-fvm](https://github.com/Baneeishaque/gp-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-matlab-mysql-phpwebstorm-1366x625-code-fvm)   
 
 ## Additional Tools
-### &nbsp;&nbsp; - FVM : 2.2.6
-### &nbsp;&nbsp; - Flutter : master (with linux-desktop)
+### &nbsp;&nbsp; - JADX : 1.3.2
 
 [//]: # "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/gp-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-mat-mysql-phpwebstorm-1366x625-code-fvm-jadx)"
