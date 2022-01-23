@@ -29,6 +29,7 @@ image:
   # - command: anydesk
   # - command: tilda
   # - command: jadx-gui
+  # - command: java -Dsun.java2d.xrender=false -jar /home/gitpod/jd-gui-1.6.6.jar
 
 ports:
   - port: 5900

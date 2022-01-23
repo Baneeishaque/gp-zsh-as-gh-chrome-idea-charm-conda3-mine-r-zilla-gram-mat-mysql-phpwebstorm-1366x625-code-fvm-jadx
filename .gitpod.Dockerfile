@@ -17,3 +17,14 @@ RUN cd $HOME \
  && rm dex-tools-2.2-SNAPSHOT-2021-10-31.zip
 
 ENV PATH=$HOME/dex-tools-2.2-SNAPSHOT:$HOME/dex-tools-2.2-SNAPSHOT/bin:$PATH
+
+# RUN cd $HOME \
+#  && wget https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.deb \
+#  && sudo apt update \
+#  && sudo apt install -y \
+#      ./jd-gui-1.6.6.deb \
+#  && sudo rm -rf /var/lib/apt/lists/* \
+#  && rm jd-gui-1.6.6.deb
+
+RUN cd $HOME \
+ && wget https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar

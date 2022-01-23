@@ -18,5 +18,6 @@
 ## Additional Tools
 ### &nbsp;&nbsp; - JADX : 1.3.2
 ### &nbsp;&nbsp; - dex2jar : v2.2-SNAPSHOT-2021-10-31
+### &nbsp;&nbsp; - JD-GUI : 1.6.6-0
 
 [//]: # "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/gp-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-mat-mysql-phpwebstorm-1366x625-code-fvm-jadx)"
