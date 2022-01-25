@@ -28,3 +28,12 @@ ENV PATH=$HOME/dex-tools-2.2-SNAPSHOT:$HOME/dex-tools-2.2-SNAPSHOT/bin:$PATH
 
 RUN cd $HOME \
  && wget https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar
+
+RUN cd $HOME \
+ && mkdir apktool \
+ && cd apktool \
+ && wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.6.0.jar \
+ && mv apktool_2.6.0.jar apktool.jar \
+ && chmod +x apktool apktool.jar
+
+ENV PATH=$HOME/apktool:$PATH
